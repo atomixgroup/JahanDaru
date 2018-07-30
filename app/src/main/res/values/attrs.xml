@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTextView">
+        <attr name="fontName" format="string"  />
+    </declare-styleable>
+    <declare-styleable name="CustomButton">
+        <attr name="btnFontName" format="string"  />
+    </declare-styleable>
+    <declare-styleable name="RoundRectCornerImageView">
+        <attr name="round" format="float"  />
+    </declare-styleable>
+    <declare-styleable name="RatingBarAttributes"><attr format="integer" name="numStars"/><attr format="float" name="rating"/><attr format="integer" name="starPadding"/><attr format="reference" name="drawableEmpty"/><attr format="reference" name="drawableFilled"/><attr format="boolean" name="touchable"/><attr format="boolean" name="clearRatingEnabled"/></declare-styleable>
+
+</resources>

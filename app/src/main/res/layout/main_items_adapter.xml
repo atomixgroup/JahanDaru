@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight=".5"
+            android:src="@drawable/i1"
+            android:id="@+id/item_image1" />
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/i2"
+            android:id="@+id/item_image2" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_weight=".5"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:src="@drawable/i3"
+            android:id="@+id/item_image3" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/item_image4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight=".5"
+            android:adjustViewBounds="true"
+            android:src="@drawable/i4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_weight=".5"
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+            android:src="@drawable/i9"
+            android:id="@+id/item_image9" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:layout_weight=".5"
+            android:src="@drawable/i5"
+            android:id="@+id/item_image5" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/item_image6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:adjustViewBounds="true"
+            android:src="@drawable/i6" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight=".5"
+            android:src="@drawable/i7"
+            android:id="@+id/item_image7" />
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/i8"
+            android:id="@+id/item_image8" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="32dp">
+    </LinearLayout>
+
+
+
+</LinearLayout>

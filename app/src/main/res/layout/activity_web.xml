@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="net.jahanco.jahandaru.Activities.MedicinalPlantsActivity"
+    >
+    <LinearLayout
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/back"
+            app:srcCompat="@drawable/ic_arrow_upward_blue_24dp"
+            android:layout_gravity="center"/>
+        <net.jahanco.jahandaru.Controls.CustomTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:fontName="ojan"
+            android:layout_weight="1"
+            android:id="@+id/page_title"
+            android:text="نسخه های درمانی خاص"
+            android:textSize="28sp"
+            android:gravity="center"/>
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_search_black_24dp"/>
+    </LinearLayout>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:id="@+id/browser">
+
+    </WebView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="#FFEA00"
+        android:visibility="gone"
+        android:id="@+id/upgrade_premium"
+
+        android:layout_alignParentBottom="true">
+        <net.jahanco.jahandaru.Controls.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ارتقا به نسخه کامل"
+            app:fontName="yekan"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>
+

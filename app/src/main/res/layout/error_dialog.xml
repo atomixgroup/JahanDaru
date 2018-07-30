@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <net.jahanco.jahandaru.Controls.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/dialog_title"
+        android:textSize="20sp"
+        app:fontName="yekan"
+        tools:text="test"
+        android:gravity="right"/>
+    <net.jahanco.jahandaru.Controls.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:id="@+id/dialog_body"
+        android:textSize="15sp"
+        app:fontName="irsans"
+        tools:text="test"
+        android:gravity="right"/>
+    <net.jahanco.jahandaru.Controls.CustomButton
+        android:layout_width="match_parent"
+        app:btnFontName="yekan"
+        android:layout_height="wrap_content"
+        tools:text="تایید"
+        android:id="@+id/btn_success"
+        android:background="#00ff00"/>
+</LinearLayout>

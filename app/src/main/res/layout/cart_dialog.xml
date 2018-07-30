@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <net.jahanco.jahandaru.Controls.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:text="لطفا مشخصات خود را به صورت کامل پر کنید توجه داشته باشید بعد از ثبت به زودی یکی از کارشناسان ما با شما در تماس خواهد بود"
+
+        app:fontName="irsans"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtName"
+        android:hint="نام گیرنده"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNum"
+        android:inputType="number"
+        android:hint="شماره تماس"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/postal_code"
+        android:inputType="number"
+        android:hint="کدپستی"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtAddress"
+        android:hint="آدرس کامل پستی"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCount"
+        android:inputType="number"
+        android:hint="تعداد"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:id="@+id/btnDisMiss"
+            android:text="لغو"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:id="@+id/btnSend"
+            android:text="ارسال"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

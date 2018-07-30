@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme.PopupOverlay">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+
+        <net.jahanco.jahandaru.Controls.CustomTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/about_book"
+            android:layout_weight="1"
+            android:gravity="right|center"
+            android:text="درباره کتاب"
+            android:layout_marginRight="20sp"
+            android:textSize="20sp"
+            android:textColor="#666"
+            app:fontName="yekan"
+            />
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+
+            app:srcCompat="@drawable/ic_library"
+            android:tint="#666"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginEnd="8sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="right">
+
+        <net.jahanco.jahandaru.Controls.CustomTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="درباره شرکت طراح"
+            android:id="@+id/about_designer"
+            android:layout_weight="1"
+            android:gravity="right|center"
+            android:layout_marginRight="20sp"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            app:fontName="yekan"
+            />
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+
+            app:srcCompat="@drawable/ic_assignment"
+            android:tint="#fff"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginEnd="8sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+
+        <net.jahanco.jahandaru.Controls.CustomTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/book_shop"
+            android:layout_weight="1"
+            android:gravity="right|center"
+            android:layout_marginRight="20sp"
+            android:text="خرید نسخه چاپی کتاب"
+            android:textSize="20sp"
+            android:textColor="#666"
+            app:fontName="yekan"
+            />
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+
+            app:srcCompat="@drawable/ic_shopping_cart_black_24dp"
+            android:tint="#666"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginEnd="8sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:background="@color/colorPrimaryDark">
+
+        <net.jahanco.jahandaru.Controls.CustomTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/social_media"
+            android:layout_weight="1"
+            android:gravity="right|center"
+            android:layout_marginRight="20sp"
+            android:text="شبکه اجتماعی"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            app:fontName="yekan"
+            />
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+
+            app:srcCompat="@drawable/ic_all_inclusive_black_24dp"
+            android:tint="#fff"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginEnd="8sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        >
+
+        <net.jahanco.jahandaru.Controls.CustomTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/contact_us"
+            android:layout_weight="1"
+            android:gravity="right|center"
+            android:layout_marginRight="20sp"
+            android:text="تماس با ما"
+            android:textSize="20sp"
+            android:textColor="#666"
+            app:fontName="yekan"
+            />
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+
+            app:srcCompat="@drawable/ic_world"
+            android:tint="#666"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginEnd="8sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:background="@color/colorPrimaryDark">
+
+        <net.jahanco.jahandaru.Controls.CustomTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="خروج از برنامه"
+            android:id="@+id/menu_exit"
+            android:layout_weight="1"
+            android:gravity="right|center"
+            android:layout_marginRight="20sp"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            app:fontName="yekan"
+            />
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+
+            app:srcCompat="@drawable/ic_exit_to_app_black_24dp"
+            android:tint="#fff"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginEnd="8sp"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+        <View android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/view" />
+
+        <TextView
+            android:id="@+id/designed_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="Designed By JahanCo"
+            android:textColor="#666" />
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

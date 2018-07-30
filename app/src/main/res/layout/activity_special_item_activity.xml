@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.jahanco.jahandaru.Activities.SpecialItemActivity"
+    android:textDirection="rtl">
+    <net.jahanco.jahandaru.Controls.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        app:fontName="yekan"
+        android:id="@+id/title"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/linearLayout">
+        <net.jahanco.jahandaru.Controls.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_below="@+id/title"
+            android:layout_margin="22dp"
+            app:fontName="irsans"
+            android:id="@+id/description"/>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <net.jahanco.jahandaru.Controls.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontName="yekan"
+            android:text="به این درمان امتیاز دهید"/>
+        <com.willy.ratingbar.ScaleRatingBar
+            xmlns:rb="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rb:numStars="5"
+            rb:starPadding="15"
+            rb:touchable="true"
+            rb:drawableEmpty="@drawable/empty"
+            rb:drawableFilled="@drawable/filled"
+            >
+        </com.willy.ratingbar.ScaleRatingBar>
+        <net.jahanco.jahandaru.Controls.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontName="yekan"
+            android:text="میانگین امتیازات:"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rate_result"
+
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

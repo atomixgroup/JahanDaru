@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "635375724938",
+    "firebase_url": "https://jahandaru-53428.firebaseio.com",
+    "project_id": "jahandaru-53428",
+    "storage_bucket": "jahandaru-53428.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635375724938:android:023f425fccebe8a8",
+        "android_client_info": {
+          "package_name": "net.jahanco.jahandaru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635375724938-1co2vbhd74egqtp407g14bt4rb6buai7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE6DwV6MgIY4l6tZwXYHtlMVpQxvVHjk0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

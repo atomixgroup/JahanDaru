@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+   <net.jahanco.jahandaru.Controls.CustomTextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:fontName="irsans"
+       android:gravity="center"
+       android:text="برای بررسی این قسمت نیاز به ارتقا برنامه به سطح کامل میباشد."/>
+    <net.jahanco.jahandaru.Controls.CustomButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUpgrade"
+        app:btnFontName="yekan"
+        android:gravity="center"
+        android:text="ارتقا به سطح کامل"/>
+
+</LinearLayout>
